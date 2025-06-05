@@ -1,26 +1,47 @@
-# My Python App
+# AI-Based Extraction
 
-A simple Python application in two parts, the main.exe will watch the Input folder, any document dropped in there will be picked up and forwarded to Azure Open AI endpoint configured in config.py with the prompt and extraction fields required. A second application validation.exe is used to validate and update if required any fields and the data is pushed to a single csv file.
+A simple Python application in two parts:
+
+- **main.exe** watches the `Input` folder. Any document dropped in there is picked up and forwarded to an Azure OpenAI endpoint (configured in `config.py`) with the prompt and required extraction fields.
+- **validation.exe** is used to validate and update any extracted fields if necessary. The finalized data is then appended to a single CSV file.
+
+---
 
 ## 📦 Requirements
 
 - Python 3.x
-- use the requirments.txt file
+- Use the provided `requirements.txt` file to install dependencies.
+
+---
 
 ## 🚀 How to Run
 
-1. Clone the repository:
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/SunnySydney123/AIBasedExtraction.git
    cd AIBasedExtraction
-# Optionally create virtual enviornment
-   python -m venv venv
-source venv/bin/activate   # On Mac/Linux
-venv\Scripts\activate      # On Windows
-# Install dependencies
+2. (Optional) Create a virtual environment:
+python -m venv venv
+3. Activate the virtual environment:
+ .ON WIndows
+ venv\Scripts\activate
+4. Install dependencies
 pip install -r requirements.txt
-# Run
+5. Run the application
 python main.py
+6. Run Validation
 python validation.py
-
-🙌 Author : Sunil Sharma
+Project Structure
+AIBasedExtraction/
+│
+├── main.py
+├── validation.py
+├── config.py
+├── requirements.txt
+├── .gitignore
+├── README.md
+├── Input/
+├── Output/
+└── venv/ (ignored)
+🙌 Author
+Sunil Sharma
