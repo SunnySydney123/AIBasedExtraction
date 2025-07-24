@@ -39,7 +39,11 @@ python validation.py
 Drop your images into the Input Folder. Once the main.exe has processed the files, you can run the validation.exe to validate the extracted results.
 
 Project Structure
+
+
 AIBasedExtraction/
+
+
 │
 ├── main.py
 ├── validation.py
