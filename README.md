@@ -20,6 +20,10 @@ A simple Python application in two parts:
    ```bash
    git clone https://github.com/SunnySydney123/AIBasedExtraction.git
    cd AIBasedExtraction
+   rename config_copy.py to config.py
+   Update the config.py with your Open AI API keys.
+
+   
 2. (Optional) Create a virtual environment:
 python -m venv venv
 3. Activate the virtual environment:
@@ -31,12 +35,15 @@ pip install -r requirements.txt
 python main.py
 6. Run Validation
 python validation.py
+
+Drop your images into the Input Folder. Once the main.exe has processed the files, you can run the validation.exe to validate the extracted results.
+
 Project Structure
 AIBasedExtraction/
 │
 ├── main.py
 ├── validation.py
-├── config.py
+├── config.py (rename the downloaded file to config.py)
 ├── requirements.txt
 ├── .gitignore
 ├── README.md
