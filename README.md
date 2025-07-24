@@ -44,7 +44,6 @@ Project Structure
 AIBasedExtraction/
 
 
-│
 ├── main.py
 
 
@@ -55,10 +54,20 @@ AIBasedExtraction/
 
 
 ├── requirements.txt
+
+
 ├── .gitignore
+
+
 ├── README.md
+
+
 ├── Input/
+
+
 ├── Output/
+
+
 └── venv/ (ignored)
 
 
