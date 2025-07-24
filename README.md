@@ -50,5 +50,11 @@ AIBasedExtraction/
 ├── Input/
 ├── Output/
 └── venv/ (ignored)
+
+
 🙌 Author
+
+
 Sunil Sharma
+
+Sn Sales Consultant (Tungsten Australia)
