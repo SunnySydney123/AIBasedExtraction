@@ -46,8 +46,14 @@ AIBasedExtraction/
 
 │
 ├── main.py
+
+
 ├── validation.py
+
+
 ├── config.py (rename the downloaded file to config.py)
+
+
 ├── requirements.txt
 ├── .gitignore
 ├── README.md
