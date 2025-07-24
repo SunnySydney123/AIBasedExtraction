@@ -36,39 +36,9 @@ python main.py
 6. Run Validation
 python validation.py
 
-Drop your images into the Input Folder. Once the main.exe has processed the files, you can run the validation.exe to validate the extracted results.
-
-Project Structure
+Drop your images into the Input Folder. Once the main.exe has processed the files, you can run the validation.exe to validate the extracted results. The extracted data will be available in csv file in the data folder
 
 
-AIBasedExtraction/
-
-
-├── main.py
-
-
-├── validation.py
-
-
-├── config.py (rename the downloaded file to config.py)
-
-
-├── requirements.txt
-
-
-├── .gitignore
-
-
-├── README.md
-
-
-├── Input/
-
-
-├── Output/
-
-
-└── venv/ (ignored)
 
 
 🙌 Author
