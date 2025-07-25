@@ -2,8 +2,8 @@
 
 A simple Python application in two parts:
 
-- **main.exe** watches the `Input` folder. Any document dropped in there is picked up and forwarded to an Azure OpenAI endpoint (configured in `config.py`) with the prompt and required extraction fields.
-- **validation.exe** is used to validate and update any extracted fields if necessary. The finalized data is then appended to a single CSV file.
+- **main.py** watches the `Input` folder. Any document dropped in there is picked up and forwarded to an Azure OpenAI endpoint (configured in `config.py`) with the prompt and required extraction fields.
+- **validation.py** is used to validate and update any extracted fields if necessary. The finalized data is then appended to a single CSV file.
 
 ---
 
